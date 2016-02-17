@@ -1,0 +1,76 @@
+#top{
+    background:linear-gradient(red,transparent 80%),linear-gradient(to top ,white,transparent 40%), rgb(240,100,100) url('../img/mountains.jpg') no-repeat center/ cover; 
+    height: 750px;
+    text-align: center;
+}
+body , h1{
+    margin: 0;
+}
+h1{
+    color: antiquewhite;
+    border-bottom: 2px solid white;
+    width: 500px;
+    font-size: 4em;
+    font-family: monospace;
+    margin: auto;
+    padding: 130px 0 5px 0;
+}
+header > h2{
+ margin: 8px auto;
+ color: beige;
+ font-size: 2rm;
+ padding-top: 20px;
+font-family: sans-serif;
+}
+.arrow {
+    width: 50px;
+    margin-top: 160px;
+}
+
+/* contect section */
+.b1 {
+    width: 70%;
+    margin: 40px auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.b1 a{
+    text-decoration: none;
+    color: firebrick;
+    font-size: 1.5em;
+    font-family: monospace;
+    padding-bottom: 6px;
+    border-bottom: 2px solid;
+    border-bottom-color: firebrick;
+}
+.b1 a:hover{
+    text-decoration: none;
+    font-size: 2em;
+}
+.primary p{
+    margin-bottom: 40px;
+}
+.primary {
+    margin-bottom: 120px;
+}
+.secondary {
+    height: 400px;
+    background: url(../img/bear.jpg) no-repeat center/ cover;
+    box-shadow: inset 400px 400px 12px 100px rgba(0,0,0,0.8);
+    border-radius: 20px;
+    border-top: 10px solid;
+    border-top-color: brown;
+    color: white;
+}
+.secondary > p {
+    width: 70%;
+    margin: auto;
+    line-height: 1.5em;
+    padding: 30px 0;
+}
+.secondary > h2{
+    padding-top: 50px;
+}
+.secondary a{
+    color: antiquewhite;
+}
