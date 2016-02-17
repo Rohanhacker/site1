@@ -74,3 +74,27 @@ font-family: sans-serif;
 .secondary a{
     color: antiquewhite;
 }
+.below {
+    width: 70%;
+    margin: 80px auto;
+    border-top: 5px solid grey;
+    padding-top: 60px;
+}
+.below .b11{
+    float: left;
+    width: 40%;
+}
+.below .b2{
+    float: right;
+    width: 40%;
+}
+.below img{
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 7px rgba(0,0,0,0.8);
+}
+.cf:after{
+    content: "";
+    display: table;
+    clear: both;
+}
