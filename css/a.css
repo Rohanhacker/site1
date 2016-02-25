@@ -52,8 +52,6 @@ header > h2{
     font-size: 1.5em;
     font-family: monospace;
     padding-bottom: 6px;
-    border-bottom: 2px solid;
-    border-bottom-color: firebrick;
 }
 .b1 a:hover{
     text-decoration: none;
@@ -66,7 +64,7 @@ header > h2{
     margin-bottom: 120px;
 }
 .secondary {
-    height: 400px;
+    height: auto;
     background: url(../img/bear.jpg) no-repeat center/ cover;
     box-shadow: inset 400px 400px 12px 100px rgba(0,0,0,0.8);
     border-radius: 20px;
@@ -102,8 +100,18 @@ header > h2{
     float: right;
     width: 40%;
 }
+p > a{
+    margin-top: 50px;
+    display: block;
+    width: 20%;
+    margin: 30px auto;
+    border-bottom: 2px solid firebrick;
+}
 .mss {
     margin: 80px 24px 10px;
+}
+.mss > h2{
+    text-align: center;
 }
 .below img{
     width: 350px;
@@ -127,4 +135,27 @@ footer a{
     text-decoration: none;
     color: firebrick;
     font-family: monospace;
+}
+ol {
+    list-style-position: inside;
+}
+/* media queries */
+@media (max-width: 992px) {
+    .below .b11 ,
+    .below .b2{
+        float: none;
+        width: auto;
+    }
+    .b1{
+        margin-bottom: 200px;
+        width: 80%;
+    }
+    .below {
+        text-align:center; 
+        margin: auto;
+    }
+    h1{
+        border-bottom: none;
+        width: auto;
+    }
 }
