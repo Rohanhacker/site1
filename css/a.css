@@ -136,15 +136,16 @@ footer a{
     color: firebrick;
     font-family: monospace;
 }
-ol {
-    list-style-position: inside;
-}
 /* media queries */
 @media (max-width: 992px) {
     .below .b11 ,
     .below .b2{
         float: none;
         width: auto;
+        margin: 10% auto;
+    }
+    .below ol{
+        text-align: justify;
     }
     .b1{
         margin-bottom: 200px;
@@ -157,5 +158,8 @@ ol {
     h1{
         border-bottom: none;
         width: auto;
+    }
+    .below img{
+        width: 80%;
     }
 }
